@@ -1,0 +1,48 @@
+.container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex start;
+    height: 100vh;
+}
+.container > div:first-child {
+    border: 1px solid purple;
+    width: 70%;
+    height: 99%;
+}
+.container > div:nth-child(2) {
+    border: 1px solid black;
+    width: 30%;
+    height: 99%;
+}
+.container > div > div:first-child {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+}
+.container > div > div > div {
+    width: 50%;
+}
+.playerOne {
+    justify-content: flex-start;
+}
+.playerTwo {
+    /* display: flex; */
+    justify-content: flex-end;
+}
+.playerOne, .playerTwo {
+    display: flex;
+}
+
+.playerOne > label, .playerTwo > label {
+    font-size: 24px;
+    margin: 0 10px 0 10px;
+    /* margin-right: 10px; */
+    padding: 10px 0 10px 0;
+    line-height: 1  ;
+}
+
+.playerOne > input, .playerTwo > input {
+    font-size: 24px;
+}

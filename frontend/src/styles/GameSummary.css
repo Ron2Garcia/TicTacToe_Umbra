@@ -1,0 +1,34 @@
+.summaryTitle {
+    border: 1px solid red;
+    height: 50px;
+    text-align: center;
+}
+.summaryTitle > span {
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.summaryContent {
+    width: 100%;
+    height: 90%;
+}
+
+.gameSummaryTable {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.gameSummaryTable tr, 
+.gameSummaryTable th, 
+.gameSummaryTable td {
+    border: 1px solid black;
+}
+
+.gameSummaryTable th {
+    min-width: 20%;
+    max-width: 20%;
+}
